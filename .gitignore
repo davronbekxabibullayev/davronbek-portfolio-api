@@ -55,3 +55,16 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio / IDE (Copilot indices, caches and user settings are locked while VS is open)
+.vs/
+*.user
+*.suo
+*.rsuser
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# OS
+.DS_Store
+Thumbs.db
